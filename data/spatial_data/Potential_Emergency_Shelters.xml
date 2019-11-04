@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="UTF-8"?><MD_Metadata xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xalan="http://xml.apache.org/xalan" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.isotc211.org/2005/gmd">
+    <fileIdentifier>
+        <gco:CharacterString>1503928258018r1404271262074055</gco:CharacterString>
+    </fileIdentifier>
+    <language>
+        <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
+    </language>
+    <characterSet>
+        <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+    </characterSet>
+    <hierarchyLevel>
+        <MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
+    </hierarchyLevel>
+    <hierarchyLevelName>
+        <gco:CharacterString>dataset</gco:CharacterString>
+    </hierarchyLevelName>
+    <contact>
+        <CI_ResponsibleParty>
+            <individualName>
+                <gco:CharacterString>David Giordano</gco:CharacterString>
+            </individualName>
+            <organisationName>
+                <gco:CharacterString>North Carolina Center for Geographic Information and Analysis</gco:CharacterString>
+            </organisationName>
+            <positionName>
+                <gco:CharacterString>Database Administration</gco:CharacterString>
+            </positionName>
+            <contactInfo>
+                <CI_Contact>
+                    <phone>
+                        <CI_Telephone>
+                            <voice>
+                                <gco:CharacterString>919-754-6580</gco:CharacterString>
+                            </voice>
+                            <facsimile>
+                                <gco:CharacterString>919-715-8551</gco:CharacterString>
+                            </facsimile>
+                        </CI_Telephone>
+                    </phone>
+                    <address>
+                        <CI_Address>
+                            <deliveryPoint>
+                                <gco:CharacterString>20322 Mail Service Center</gco:CharacterString>
+                            </deliveryPoint>
+                            <city>
+                                <gco:CharacterString>Raleigh</gco:CharacterString>
+                            </city>
+                            <administrativeArea>
+                                <gco:CharacterString>North Carolina</gco:CharacterString>
+                            </administrativeArea>
+                            <postalCode>
+                                <gco:CharacterString>27699</gco:CharacterString>
+                            </postalCode>
+                            <country>
+                                <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+                            </country>
+                            <electronicMailAddress>
+                                <gco:CharacterString>dataq@its.nc.gov</gco:CharacterString>
+                            </electronicMailAddress>
+                        </CI_Address>
+                    </address>
+                    <hoursOfService>
+                        <gco:CharacterString>8am to 5pm</gco:CharacterString>
+                    </hoursOfService>
+                    <contactInstructions>
+                        <gco:CharacterString>Phone and electronic mail preferred</gco:CharacterString>
+                    </contactInstructions>
+                </CI_Contact>
+            </contactInfo>
+            <role>
+                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115">pointOfContact</CI_RoleCode>
+            </role>
+        </CI_ResponsibleParty>
+    </contact>
+    <dateStamp>
+        <gco:Date>2011-06-10</gco:Date>
+    </dateStamp>
+    <metadataStandardName>
+        <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
+    </metadataStandardName>
+    <metadataStandardVersion>
+        <gco:CharacterString>2007</gco:CharacterString>
+    </metadataStandardVersion>
+    <spatialRepresentationInfo>
+        <MD_VectorSpatialRepresentation>
+            <geometricObjects>
+                <MD_GeometricObjects>
+                    <geometricObjectType>
+                        <MD_GeometricObjectTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="point" codeSpace="ISOTC211/19115">point</MD_GeometricObjectTypeCode>
+                    </geometricObjectType>
+                    <geometricObjectCount>
+                        <gco:Integer>2447</gco:Integer>
+                    </geometricObjectCount>
+                </MD_GeometricObjects>
+            </geometricObjects>
+            <geometricObjects>
+                <MD_GeometricObjects>
+                    <geometricObjectType>
+                        <MD_GeometricObjectTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="point" codeSpace="ISOTC211/19115">point</MD_GeometricObjectTypeCode>
+                    </geometricObjectType>
+                    <geometricObjectCount>
+                        <gco:Integer>2447</gco:Integer>
+                    </geometricObjectCount>
+                </MD_GeometricObjects>
+            </geometricObjects>
+        </MD_VectorSpatialRepresentation>
+    </spatialRepresentationInfo>
+    <identificationInfo>
+        <MD_DataIdentification>
+            <citation>
+                <CI_Citation>
+                    <title>
+                        <gco:CharacterString>Potential Emergency Shelters</gco:CharacterString>
+                    </title>
+                    <date>
+                        <CI_Date>
+                            <date>
+                                <gco:Date>2003-07-02</gco:Date>
+                            </date>
+                            <dateType>
+                                <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
+                            </dateType>
+                        </CI_Date>
+                    </date>
+                    <citedResponsibleParty>
+                        <CI_ResponsibleParty>
+                            <organisationName>
+                                <gco:CharacterString>NC Dept. of Information Technology, Government Data Analytics Center, Center for Geographic Information and Analysis</gco:CharacterString>
+                            </organisationName>
+                            <role>
+                                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115">originator</CI_RoleCode>
+                            </role>
+                        </CI_ResponsibleParty>
+                    </citedResponsibleParty>
+                    <citedResponsibleParty>
+                        <CI_ResponsibleParty>
+                            <organisationName>
+                                <gco:CharacterString>NC center for Geographic Information and Analysis</gco:CharacterString>
+                            </organisationName>
+                            <contactInfo>
+                                <CI_Contact>
+                                    <address>
+                                        <CI_Address>
+                                            <deliveryPoint>
+                                                <gco:CharacterString>Raleigh, North Carolina</gco:CharacterString>
+                                            </deliveryPoint>
+                                        </CI_Address>
+                                    </address>
+                                </CI_Contact>
+                            </contactInfo>
+                            <role>
+                                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" codeSpace="ISOTC211/19115">publisher</CI_RoleCode>
+                            </role>
+                        </CI_ResponsibleParty>
+                    </citedResponsibleParty>
+                    <presentationForm>
+                        <CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital" codeSpace="ISOTC211/19115">mapDigital</CI_PresentationFormCode>
+                    </presentationForm>
+                    <otherCitationDetails>
+                        <gco:CharacterString>NCCGIA distributes this dataset</gco:CharacterString>
+                    </otherCitationDetails>
+                </CI_Citation>
+            </citation>
+            <abstract>
+                <gco:CharacterString>CGIA developed this set of point locations for potential emergency shelters in North Carolina as part of a project for the Flood Innundation and Forecast Mapping System. Structures selected to serve as shelters in disaster response will vary. This set represent structures of the type that may be selected by local emergency managers, the Red Cross, or other disaster response agencies.</gco:CharacterString>
+            </abstract>
+            <purpose>
+                <gco:CharacterString>These data were created to assist governmental agencies and others in making resource management decisions through use of a Geographic Information System (GIS). These data are useful in many planning and emergency management operations.</gco:CharacterString>
+            </purpose>
+            <status>
+                <MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="ISOTC211/19115">completed</MD_ProgressCode>
+            </status>
+            <pointOfContact>
+                <CI_ResponsibleParty>
+                    <individualName>
+                        <gco:CharacterString>Jeffrey Brown</gco:CharacterString>
+                    </individualName>
+                    <organisationName>
+                        <gco:CharacterString>NC Center for Geographic Information and Analysis</gco:CharacterString>
+                    </organisationName>
+                    <positionName>
+                        <gco:CharacterString>Coordination Program Manager</gco:CharacterString>
+                    </positionName>
+                    <contactInfo>
+                        <CI_Contact>
+                            <phone>
+                                <CI_Telephone>
+                                    <voice>
+                                        <gco:CharacterString>919-754-6580</gco:CharacterString>
+                                    </voice>
+                                    <facsimile>
+                                        <gco:CharacterString>919-715-8551</gco:CharacterString>
+                                    </facsimile>
+                                </CI_Telephone>
+                            </phone>
+                            <address>
+                                <CI_Address>
+                                    <deliveryPoint>
+                                        <gco:CharacterString>333 E. Six Forks Rd.</gco:CharacterString>
+                                    </deliveryPoint>
+                                    <city>
+                                        <gco:CharacterString>Raleigh</gco:CharacterString>
+                                    </city>
+                                    <administrativeArea>
+                                        <gco:CharacterString>North Carolina</gco:CharacterString>
+                                    </administrativeArea>
+                                    <postalCode>
+                                        <gco:CharacterString>27609</gco:CharacterString>
+                                    </postalCode>
+                                    <country>
+                                        <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+                                    </country>
+                                    <electronicMailAddress>
+                                        <gco:CharacterString>dataq@its.nc.gov</gco:CharacterString>
+                                    </electronicMailAddress>
+                                </CI_Address>
+                            </address>
+                            <hoursOfService>
+                                <gco:CharacterString>8am to 5pm</gco:CharacterString>
+                            </hoursOfService>
+                            <contactInstructions>
+                                <gco:CharacterString>Phone and electronic mail preferred</gco:CharacterString>
+                            </contactInstructions>
+                        </CI_Contact>
+                    </contactInfo>
+                    <role>
+                        <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115">pointOfContact</CI_RoleCode>
+                    </role>
+                </CI_ResponsibleParty>
+            </pointOfContact>
+            <resourceMaintenance>
+                <MD_MaintenanceInformation>
+                    <maintenanceAndUpdateFrequency>
+                        <MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded" codeSpace="ISOTC211/19115">asNeeded</MD_MaintenanceFrequencyCode>
+                    </maintenanceAndUpdateFrequency>
+                </MD_MaintenanceInformation>
+            </resourceMaintenance>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>North Carolina</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115">place</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>William S. Powell, The North Carolina GAZETTEER, A Dictionary of Tar Heel Places, (Chapel Hill: University of North Carolina Press), August 1984.</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>emergency shelters</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>shelters</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>schools</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>emergency shelters</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>shelters</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>schools</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>emergency shelters</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>shelters</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>schools</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>structure</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>ISO 19115 Topic Category</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Downloadable Data</gco:CharacterString>
+                    </keyword>
+                    <thesaurusName uuidref="723f6998-058e-11dc-8314-0800200c9a66"/>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <resourceConstraints>
+                <MD_Constraints>
+                    <useLimitation>
+                        <gco:CharacterString>Acknowledgement of products derived from this data set should cite the following: The source of the potential emergency shelter data is the North Carolina Corporate Geographic Database. Earlier versions of this dataset may exist. The user must be sure to use the appropriate data set for the time period of interest. While efforts have been made to ensure that these data are accurate and reliable within the state of the art, CGIA cannot assume liability for any damages or misrepresentation caused by any inaccuracies in the data or as a result of changes to the data caused by system transfers.</gco:CharacterString>
+                    </useLimitation>
+                </MD_Constraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <useLimitation>
+                        <gco:CharacterString>NCCGIA is charged with the development and maintenance of NC OneMap and, in cooperation with other mapping organizations, is committed to offering its users accurate, useful, and current information. Although every effort has been made to ensure the accuracy of information, errors and conditions originating from physical sources used to develop this dataset may be reflected in the data supplied. The user must be aware of possible conditions and bear responsibility for the appropriate use of the information with respect to possible errors, original map scale, collection methodology, currency of data, and other conditions specific to certain data. NCCGIA does not support secondary distribution of this dataset without its current, compliant metadata record. The use of trade names or commercial products does not constitute their endorsement by NCCGIA or North Carolina State Government.</gco:CharacterString>
+                    </useLimitation>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <spatialRepresentationType>
+                <MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector" codeSpace="ISOTC211/19115">vector</MD_SpatialRepresentationTypeCode>
+            </spatialRepresentationType>
+            <language>
+                <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
+            </language>
+            <characterSet>
+                <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+            </characterSet>
+            <topicCategory>
+                <MD_TopicCategoryCode>structure</MD_TopicCategoryCode>
+            </topicCategory>
+            <extent>
+                <EX_Extent>
+                    <geographicElement>
+                        <EX_GeographicBoundingBox>
+                            <westBoundLongitude>
+                                <gco:Decimal>-84.310474</gco:Decimal>
+                            </westBoundLongitude>
+                            <eastBoundLongitude>
+                                <gco:Decimal>-75.497491</gco:Decimal>
+                            </eastBoundLongitude>
+                            <southBoundLatitude>
+                                <gco:Decimal>33.818077</gco:Decimal>
+                            </southBoundLatitude>
+                            <northBoundLatitude>
+                                <gco:Decimal>36.557152</gco:Decimal>
+                            </northBoundLatitude>
+                        </EX_GeographicBoundingBox>
+                    </geographicElement>
+                </EX_Extent>
+            </extent>
+            <extent>
+                <EX_Extent>
+                    <description>
+                        <gco:CharacterString>Data creation and revision dates</gco:CharacterString>
+                    </description>
+                    <temporalElement>
+                        <EX_TemporalExtent>
+                            <extent>
+                                <gml:TimePeriod gml:id="N65733">
+                                    <gml:beginPosition>2003-06-24</gml:beginPosition>
+                                    <gml:endPosition>2003-07-02</gml:endPosition>
+                                </gml:TimePeriod>
+                            </extent>
+                        </EX_TemporalExtent>
+                    </temporalElement>
+                </EX_Extent>
+            </extent>
+            <supplementalInformation>
+                <gco:CharacterString>system filename: shelters03 file size = 0.8mb Revisions and updates to this layer include: &gt;1) filename: shelters03 The 07/02/03 version was the first &gt;released version of this data.</gco:CharacterString>
+            </supplementalInformation>
+        </MD_DataIdentification>
+    </identificationInfo>
+    <distributionInfo>
+        <MD_Distribution>
+            <distributor>
+                <MD_Distributor>
+                    <distributorContact>
+                        <CI_ResponsibleParty>
+                            <organisationName>
+                                <gco:CharacterString>NC Center for Geographic Information and Analysis</gco:CharacterString>
+                            </organisationName>
+                            <positionName>
+                                <gco:CharacterString>Database Administration</gco:CharacterString>
+                            </positionName>
+                            <contactInfo>
+                                <CI_Contact>
+                                    <phone>
+                                        <CI_Telephone>
+                                            <voice>
+                                                <gco:CharacterString>919-754-6580</gco:CharacterString>
+                                            </voice>
+                                            <facsimile>
+                                                <gco:CharacterString>919-715-8551</gco:CharacterString>
+                                            </facsimile>
+                                        </CI_Telephone>
+                                    </phone>
+                                    <address>
+                                        <CI_Address>
+                                            <deliveryPoint>
+                                                <gco:CharacterString>20322 Mail Service Center</gco:CharacterString>
+                                            </deliveryPoint>
+                                            <city>
+                                                <gco:CharacterString>Raleigh</gco:CharacterString>
+                                            </city>
+                                            <administrativeArea>
+                                                <gco:CharacterString>North Carolina</gco:CharacterString>
+                                            </administrativeArea>
+                                            <postalCode>
+                                                <gco:CharacterString>27699</gco:CharacterString>
+                                            </postalCode>
+                                            <country>
+                                                <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+                                            </country>
+                                            <electronicMailAddress>
+                                                <gco:CharacterString>dataq@its.nc.gov</gco:CharacterString>
+                                            </electronicMailAddress>
+                                        </CI_Address>
+                                    </address>
+                                    <hoursOfService>
+                                        <gco:CharacterString>8:30AM - 5:30PM</gco:CharacterString>
+                                    </hoursOfService>
+                                    <contactInstructions>
+                                        <gco:CharacterString>Phone and electronic mail preferred</gco:CharacterString>
+                                    </contactInstructions>
+                                </CI_Contact>
+                            </contactInfo>
+                            <role>
+                                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor" codeSpace="ISOTC211/19115">distributor</CI_RoleCode>
+                            </role>
+                        </CI_ResponsibleParty>
+                    </distributorContact>
+                    <distributionOrderProcess>
+                        <MD_StandardOrderProcess>
+                            <fees>
+                                <gco:CharacterString>None. Download from http://www.nconemap.gov is free of charge.</gco:CharacterString>
+                            </fees>
+                        </MD_StandardOrderProcess>
+                    </distributionOrderProcess>
+                    <distributorFormat>
+                        <MD_Format>
+                            <name>
+                                <gco:CharacterString>ESRI shapefile (*.shp)</gco:CharacterString>
+                            </name>
+                            <version gco:nilReason="missing"/>
+                        </MD_Format>
+                    </distributorFormat>
+                    <distributorTransferOptions>
+                        <MD_DigitalTransferOptions>
+                            <onLine>
+                                <CI_OnlineResource>
+                                    <linkage>
+                                        <URL>http://data.nconemap.gov/downloads/vector/pes.zip</URL>
+                                    </linkage>
+                                </CI_OnlineResource>
+                            </onLine>
+                        </MD_DigitalTransferOptions>
+                    </distributorTransferOptions>
+                </MD_Distributor>
+            </distributor>
+            <transferOptions>
+                <MD_DigitalTransferOptions>
+                    <onLine>
+                        <CI_OnlineResource>
+                            <linkage>
+                                <URL>http://www.nconemap.gov</URL>
+                            </linkage>
+                        </CI_OnlineResource>
+                    </onLine>
+                </MD_DigitalTransferOptions>
+            </transferOptions>
+        </MD_Distribution>
+    </distributionInfo>
+    <dataQualityInfo>
+        <DQ_DataQuality>
+            <scope>
+                <DQ_Scope>
+                    <level>
+                        <MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
+                    </level>
+                </DQ_Scope>
+            </scope>
+            <report>
+                <DQ_TopologicalConsistency>
+                    <evaluationMethodDescription>
+                        <gco:CharacterString>Using ESRI's ARC/INFO GIS software, the dataset was built for point topology using the "build" command. Topology has not been edited since the last build or clean.</gco:CharacterString>
+                    </evaluationMethodDescription>
+                    <result gco:nilReason="missing"/>
+                </DQ_TopologicalConsistency>
+            </report>
+            <report>
+                <DQ_ConceptualConsistency>
+                    <measureDescription>
+                        <gco:CharacterString>Using ESRI's ARC/INFO GIS software, the dataset was built for point topology using the "build" command. Topology has not been edited since the last build or clean.</gco:CharacterString>
+                    </measureDescription>
+                    <result gco:nilReason="missing"/>
+                </DQ_ConceptualConsistency>
+            </report>
+            <report>
+                <DQ_CompletenessOmission>
+                    <measureDescription>
+                        <gco:CharacterString>The data represents those potential emergency shelters which were either address matched using ArcView geocoding or matched manually using the best available techniques. This data set does not contain all the potential emergency shelter locations in North Carolina, as other types of buildings may be appropriate for a specific event.</gco:CharacterString>
+                    </measureDescription>
+                    <result gco:nilReason="missing"/>
+                </DQ_CompletenessOmission>
+            </report>
+            <report>
+                <DQ_QuantitativeAttributeAccuracy>
+                    <measureDescription>
+                        <gco:CharacterString>The attributes were loaded into the GIS from data supplied by the NC Department of Public Instruction, US Army Corps of Engineers, NC Community College System, Federal Emergency Management Agency (HAZUS 99), and the NC State Property Office. The values in this dataset are deemed to be reliable.</gco:CharacterString>
+                    </measureDescription>
+                    <result gco:nilReason="missing"/>
+                </DQ_QuantitativeAttributeAccuracy>
+            </report>
+            <report>
+                <DQ_AbsoluteExternalPositionalAccuracy>
+                    <measureDescription>
+                        <gco:CharacterString>The majority of potential emergency shelter locations were generated using geocoding in ArcView. The point generated in the processing would be snapped to the road identified in the address field. Therefore, point locations are coincident with the GDT roads data.</gco:CharacterString>
+                    </measureDescription>
+                    <result gco:nilReason="missing"/>
+                </DQ_AbsoluteExternalPositionalAccuracy>
+            </report>
+            <lineage>
+                <LI_Lineage>
+                    <processStep>
+                        <LI_ProcessStep>
+                            <description>
+                                <gco:CharacterString>CGIA used a road network from GDT, Inc. with ArcView GIS to geocode the addresses. This process matched potential emergency shelters with a point on the road network. Point locations are approximate, based on an interpolation of street numbers along street segments. The resulting file was checked to determine which addresses did not match. These locations were then added to the coverage interactively, using GDT roads, Digital Orthophoto Quarter Quadrangels as backcovers. Many of these point locations are coincident with the center of buildings on digital imagery or along driveways and may be more accurate than points located using the first method. Geographic layers from the NC Corporate Geographic Database to determine potential emergency shelter locations.</gco:CharacterString>
+                            </description>
+                            <dateTime>
+                                <gco:DateTime>2003-07-02T00:00:00</gco:DateTime>
+                            </dateTime>
+                            <processor>
+                                <CI_ResponsibleParty>
+                                    <organisationName>
+                                        <gco:CharacterString>NC Center for Geographic Information and Analysis</gco:CharacterString>
+                                    </organisationName>
+                                    <positionName>
+                                        <gco:CharacterString>GIS Analyst</gco:CharacterString>
+                                    </positionName>
+                                    <contactInfo>
+                                        <CI_Contact>
+                                            <phone>
+                                                <CI_Telephone>
+                                                    <voice>
+                                                        <gco:CharacterString>919-754-6580</gco:CharacterString>
+                                                    </voice>
+                                                    <facsimile>
+                                                        <gco:CharacterString>919-715-8551</gco:CharacterString>
+                                                    </facsimile>
+                                                </CI_Telephone>
+                                            </phone>
+                                            <address>
+                                                <CI_Address>
+                                                    <deliveryPoint>
+                                                        <gco:CharacterString>20322 Mail Service Center</gco:CharacterString>
+                                                    </deliveryPoint>
+                                                    <city>
+                                                        <gco:CharacterString>Raleigh</gco:CharacterString>
+                                                    </city>
+                                                    <administrativeArea>
+                                                        <gco:CharacterString>North Carolina</gco:CharacterString>
+                                                    </administrativeArea>
+                                                    <postalCode>
+                                                        <gco:CharacterString>27699</gco:CharacterString>
+                                                    </postalCode>
+                                                    <country>
+                                                        <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+                                                    </country>
+                                                    <electronicMailAddress>
+                                                        <gco:CharacterString>dataq@its.nc.gov</gco:CharacterString>
+                                                    </electronicMailAddress>
+                                                </CI_Address>
+                                            </address>
+                                            <hoursOfService>
+                                                <gco:CharacterString>8am to 5pm</gco:CharacterString>
+                                            </hoursOfService>
+                                            <contactInstructions>
+                                                <gco:CharacterString>Phone and electronic mail preferred</gco:CharacterString>
+                                            </contactInstructions>
+                                        </CI_Contact>
+                                    </contactInfo>
+                                    <role>
+                                        <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="ISOTC211/19115">processor</CI_RoleCode>
+                                    </role>
+                                </CI_ResponsibleParty>
+                            </processor>
+                        </LI_ProcessStep>
+                    </processStep>
+                    <source>
+                        <LI_Source>
+                            <description>
+                                <gco:CharacterString>Excel spreadsheet of public shelters with lat/long and state plane feet coordinates.</gco:CharacterString>
+                            </description>
+                            <sourceCitation>
+                                <CI_Citation>
+                                    <title>
+                                        <gco:CharacterString>USACE 2000 Emergency Shelters</gco:CharacterString>
+                                    </title>
+                                    <date>
+                                        <CI_Date>
+                                            <date>
+                                                <gco:Date>2000-12-01</gco:Date>
+                                            </date>
+                                            <dateType>
+                                                <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
+                                            </dateType>
+                                        </CI_Date>
+                                    </date>
+                                </CI_Citation>
+                            </sourceCitation>
+                            <sourceExtent>
+                                <EX_Extent>
+                                    <description>
+                                        <gco:CharacterString>Original release date and most recent revision date, respectively</gco:CharacterString>
+                                    </description>
+                                    <temporalElement>
+                                        <EX_TemporalExtent>
+                                            <extent>
+                                                <gml:TimePeriod gml:id="N65937">
+                                                    <gml:beginPosition>2000-12-01</gml:beginPosition>
+                                                    <gml:endPosition>2003-07-02</gml:endPosition>
+                                                </gml:TimePeriod>
+                                            </extent>
+                                        </EX_TemporalExtent>
+                                    </temporalElement>
+                                </EX_Extent>
+                            </sourceExtent>
+                        </LI_Source>
+                    </source>
+                    <source>
+                        <LI_Source>
+                            <description>
+                                <gco:CharacterString>Locations of Community Colleges</gco:CharacterString>
+                            </description>
+                            <sourceCitation>
+                                <CI_Citation>
+                                    <title>
+                                        <gco:CharacterString>Community College Locations</gco:CharacterString>
+                                    </title>
+                                    <date gco:nilReason="missing"/>
+                                </CI_Citation>
+                            </sourceCitation>
+                            <sourceExtent>
+                                <EX_Extent>
+                                    <description>
+                                        <gco:CharacterString>Original release date and revision date, respectively</gco:CharacterString>
+                                    </description>
+                                    <temporalElement>
+                                        <EX_TemporalExtent>
+                                            <extent>
+                                                <gml:TimePeriod gml:id="N65979">
+                                                    <gml:beginPosition>2001-10-03</gml:beginPosition>
+                                                    <gml:endPosition>2002-07-02</gml:endPosition>
+                                                </gml:TimePeriod>
+                                            </extent>
+                                        </EX_TemporalExtent>
+                                    </temporalElement>
+                                </EX_Extent>
+                            </sourceExtent>
+                        </LI_Source>
+                    </source>
+                    <source>
+                        <LI_Source>
+                            <description>
+                                <gco:CharacterString>The data describe residential, commercial, industrial, and government building information.</gco:CharacterString>
+                            </description>
+                            <sourceCitation>
+                                <CI_Citation>
+                                    <title>
+                                        <gco:CharacterString>HAZUS: General Building Stock: Occupancy Square Footage Data</gco:CharacterString>
+                                    </title>
+                                    <date>
+                                        <CI_Date>
+                                            <date>
+                                                <gco:Date>1997-06-01</gco:Date>
+                                            </date>
+                                            <dateType>
+                                                <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
+                                            </dateType>
+                                        </CI_Date>
+                                    </date>
+                                </CI_Citation>
+                            </sourceCitation>
+                            <sourceExtent>
+                                <EX_Extent>
+                                    <description>
+                                        <gco:CharacterString>Original release date and most recent revision date, respectively</gco:CharacterString>
+                                    </description>
+                                    <temporalElement>
+                                        <EX_TemporalExtent>
+                                            <extent>
+                                                <gml:TimePeriod gml:id="N66027">
+                                                    <gml:beginPosition>1997-06-01</gml:beginPosition>
+                                                    <gml:endPosition>2003-07-02</gml:endPosition>
+                                                </gml:TimePeriod>
+                                            </extent>
+                                        </EX_TemporalExtent>
+                                    </temporalElement>
+                                </EX_Extent>
+                            </sourceExtent>
+                        </LI_Source>
+                    </source>
+                    <source>
+                        <LI_Source>
+                            <description>
+                                <gco:CharacterString>Exterior boundaries of state-owned complexes in a digital file.</gco:CharacterString>
+                            </description>
+                            <sourceCitation>
+                                <CI_Citation>
+                                    <title>
+                                        <gco:CharacterString>State-owned Complexes</gco:CharacterString>
+                                    </title>
+                                    <date>
+                                        <CI_Date>
+                                            <date>
+                                                <gco:Date>1998-04-30</gco:Date>
+                                            </date>
+                                            <dateType>
+                                                <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
+                                            </dateType>
+                                        </CI_Date>
+                                    </date>
+                                </CI_Citation>
+                            </sourceCitation>
+                            <sourceExtent>
+                                <EX_Extent>
+                                    <description>
+                                        <gco:CharacterString>Original release date and most recent revision date, respectively</gco:CharacterString>
+                                    </description>
+                                    <temporalElement>
+                                        <EX_TemporalExtent>
+                                            <extent>
+                                                <gml:TimePeriod gml:id="N66075">
+                                                    <gml:beginPosition>1993-07-01</gml:beginPosition>
+                                                    <gml:endPosition>2003-07-02</gml:endPosition>
+                                                </gml:TimePeriod>
+                                            </extent>
+                                        </EX_TemporalExtent>
+                                    </temporalElement>
+                                </EX_Extent>
+                            </sourceExtent>
+                        </LI_Source>
+                    </source>
+                    <source>
+                        <LI_Source>
+                            <description>
+                                <gco:CharacterString>Locations of Schools by address</gco:CharacterString>
+                            </description>
+                            <scaleDenominator>
+                                <MD_RepresentativeFraction>
+                                    <denominator>
+                                        <gco:Integer>24000</gco:Integer>
+                                    </denominator>
+                                </MD_RepresentativeFraction>
+                            </scaleDenominator>
+                            <sourceCitation>
+                                <CI_Citation>
+                                    <title>
+                                        <gco:CharacterString>Transportation Information Management System (TIMS)</gco:CharacterString>
+                                    </title>
+                                    <date>
+                                        <CI_Date>
+                                            <date>
+                                                <gco:Date>1986-01-01</gco:Date>
+                                            </date>
+                                            <dateType>
+                                                <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
+                                            </dateType>
+                                        </CI_Date>
+                                    </date>
+                                </CI_Citation>
+                            </sourceCitation>
+                            <sourceExtent>
+                                <EX_Extent>
+                                    <description>
+                                        <gco:CharacterString>Original release date and revision date, respectively</gco:CharacterString>
+                                    </description>
+                                    <temporalElement>
+                                        <EX_TemporalExtent>
+                                            <extent>
+                                                <gml:TimePeriod gml:id="N66129">
+                                                    <gml:beginPosition>1999-08-23</gml:beginPosition>
+                                                    <gml:endPosition>2003-07-02</gml:endPosition>
+                                                </gml:TimePeriod>
+                                            </extent>
+                                        </EX_TemporalExtent>
+                                    </temporalElement>
+                                </EX_Extent>
+                            </sourceExtent>
+                        </LI_Source>
+                    </source>
+                </LI_Lineage>
+            </lineage>
+        </DQ_DataQuality>
+    </dataQualityInfo>
+    <metadataConstraints>
+        <MD_Constraints>
+            <useLimitation>
+                <gco:CharacterString>This metadata file is to accompany the dataset. NCCGIA does not support secondary distribution of this dataset without its current, compliant metadata record. If the dataset described in this metadata record was received from anyone besides NCCGIA, this metadata and the dataset it describes may contain discrepancies.</gco:CharacterString>
+            </useLimitation>
+        </MD_Constraints>
+    </metadataConstraints>
+</MD_Metadata>
